@@ -9,6 +9,7 @@ a{
     font-size: 1.25rem;
 }
 .headerContainer{
+    height: 8rem;
     margin: auto;
     max-width: 1366px;
     display: flex;
