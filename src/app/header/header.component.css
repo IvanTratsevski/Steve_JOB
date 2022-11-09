@@ -5,9 +5,12 @@
 header{
     background-color: rgb(238, 242, 255);
 }
+a{
+    font-size: 1.25rem;
+}
 .headerContainer{
     margin: auto;
-    max-width: 1200px;
+    max-width: 1366px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -18,4 +21,14 @@ header{
 }
 .nav-link{
     color: rgb(16, 16, 177);
+}
+.btn-outline-primary{
+    min-width: 120px;
+    height: 50px;
+    color: rgb(16, 16, 177);
+    border-color: rgb(16, 16, 177);
+}
+.btn-outline-primary:hover{
+    color: white;
+    background-color: rgb(16, 16, 177);
 }
