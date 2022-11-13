@@ -21,6 +21,11 @@
             "assets": [
               "src/favicon.ico",
               "src/assets"
+              // {
+              //   "glob": "*.svg",
+              //   "input": "./node_modules/bootstrap-icons/",
+              //   "output": "/b-icons/"
+              // }
             ],
             "styles": [
               "src/styles.css",
