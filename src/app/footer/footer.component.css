@@ -1,0 +1,17 @@
+footer{
+    display: flex;
+    flex-direction: column;
+}
+.appInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:flex-start;
+}
+.appInfo > section{
+    max-width: 500px;
+    min-width: 300px;
+}
+.copyright{
+    text-align: center;
+}
