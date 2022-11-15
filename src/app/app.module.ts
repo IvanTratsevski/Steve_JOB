@@ -7,13 +7,15 @@ import { HeaderComponent } from './header/header.component';
 import { MainComponent } from './main/main.component';
 import { FooterComponent } from './footer/footer.component';
 import { WelcomePageComponent } from './welcome-page/welcome-page.component';
+import { ErrorPageComponent } from './error-page/error-page.component';
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     MainComponent,
     FooterComponent,
-    WelcomePageComponent
+    WelcomePageComponent,
+    ErrorPageComponent
   ],
   imports: [
     BrowserModule,
