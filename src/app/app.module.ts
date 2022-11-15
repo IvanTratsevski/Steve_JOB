@@ -8,6 +8,7 @@ import { MainComponent } from './main/main.component';
 import { FooterComponent } from './footer/footer.component';
 import { WelcomePageComponent } from './welcome-page/welcome-page.component';
 import { ErrorPageComponent } from './error-page/error-page.component';
+import { SummarysPageComponent } from './summarys-page/summarys-page.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -15,7 +16,8 @@ import { ErrorPageComponent } from './error-page/error-page.component';
     MainComponent,
     FooterComponent,
     WelcomePageComponent,
-    ErrorPageComponent
+    ErrorPageComponent,
+    SummarysPageComponent,
   ],
   imports: [
     BrowserModule,
