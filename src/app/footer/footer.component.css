@@ -1,6 +1,10 @@
 footer{
+    background-color: rgb(238, 242, 255);
+}
+.container{
     display: flex;
     flex-direction: column;
+    max-width: 1920px;
 }
 .appInfo{
     height: 27vh;
@@ -21,6 +25,9 @@ footer{
 .contactIcons{
     display: flex;
     flex-direction: row;
+}
+.contactInfo, .aboutInfo{
+    margin-top: 12px;
 }
 .contactIcon{
     margin-right: 10px;
