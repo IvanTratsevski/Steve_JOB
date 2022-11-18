@@ -7,7 +7,7 @@ footer{
     max-width: 1920px;
 }
 .appInfo{
-    height: 27vh;
+    min-height: 27vh;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
