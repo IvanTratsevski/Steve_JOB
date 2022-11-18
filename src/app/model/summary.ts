@@ -4,4 +4,9 @@ export interface Summary {
     category?: string;
     description?: string;
     img?: string;
+    employer:{
+      logo_urls: {
+        original: any
+      }
+    };
   }

@@ -13,6 +13,7 @@ import { FooterComponent } from './footer/footer.component';
 import { WelcomePageComponent } from './welcome-page/welcome-page.component';
 import { ErrorPageComponent } from './error-page/error-page.component';
 import { SummarysPageComponent } from './summarys-page/summarys-page.component';
+import { SummaryLabelComponent } from './summary-label/summary-label.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,6 +23,7 @@ import { SummarysPageComponent } from './summarys-page/summarys-page.component';
     WelcomePageComponent,
     ErrorPageComponent,
     SummarysPageComponent,
+    SummaryLabelComponent,
   ],
   imports: [
     BrowserModule,

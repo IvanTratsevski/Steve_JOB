@@ -10,12 +10,14 @@ import { Summary } from '../model/summary';
 export class SummarysPageComponent implements OnInit {
 
   constructor(private data: DataService) { }
+  summarysJSONObj!: any;
   summarys: Summary[] = [];
   ngOnInit(): void {
     this.data.getSummarys().subscribe((data) => {
-      this.summarys = data;
-      console.log(this.summarys);
+      this.summarysJSONObj = data;
+      this.summarys = this.summarysJSONObj.items;
     });
+
   }
 
 }
