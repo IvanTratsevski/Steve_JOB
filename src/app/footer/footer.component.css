@@ -1,0 +1,45 @@
+footer{
+    background-color: rgb(238, 242, 255);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 1920px;
+}
+.appInfo{
+    min-height: 27vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:flex-start;
+}
+.appInfo > section{
+    max-width: 500px;
+    min-width: 300px;
+}
+.copyright{
+    background-color: gainsboro;
+    margin-top: 8px;
+    text-align: center;
+}
+.contactIcons{
+    display: flex;
+    flex-direction: row;
+}
+.contactInfo, .aboutInfo{
+    margin-top: 12px;
+}
+.contactIcon{
+    margin-right: 10px;
+    width: 32px;
+    height: 32px;
+}
+.phone, .mail{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+}
+.verticalLine{
+    border-left: 3px solid rgb(0, 124, 128);
+    height:100%;
+}

@@ -1,0 +1,12 @@
+.summarysPage{
+    width: 100%;
+    height: 2000px;
+}
+.container{
+    margin: auto;
+    margin-top: 5px;
+    max-width: 1920px;
+}
+.d-flex{
+    height: 50px;
+}

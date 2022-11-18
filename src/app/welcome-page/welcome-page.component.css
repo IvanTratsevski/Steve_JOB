@@ -1,0 +1,60 @@
+.welcomePage{
+    width: 100%;
+    min-height: 85vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../../assets/imgs/welcome-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1920px;
+}
+.aboutSection, .letsStartSection{
+    width: 45%;
+}
+.letstStartHeader, .aboutSection{
+    background-color: rgba(255, 255, 255, 0.943);
+    border-radius: 5px;
+}
+.card{
+    width: 18rem;
+}
+.letstStartRegBtns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.aboutSection > *, .letsStartSection > *{
+    font-size: 18px;
+    padding: 6px;
+}
+.btn-primary{
+    color: #fff;
+    background-color: rgb(27, 48, 85);
+    border-color: rgb(27, 48, 85);
+}
+@media (max-width: 940px){
+    .container{
+        flex-direction: column;
+    }
+    .letstStartRegBtns{
+        align-items: center;
+        flex-direction: column;
+    }
+    .aboutSection, .letsStartSection{
+        width: 90%;
+    }
+    .card{
+        width: 90%;
+        flex-direction: row;
+    }
+    .card-img-top{
+        width:30%;
+    }
+}

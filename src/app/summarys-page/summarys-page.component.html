@@ -1,0 +1,24 @@
+<div class="summarysPage">
+    <div class="container">
+        <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Введите название резюме" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Найти</button>
+        </form>
+        <div class="row">
+            <div class="col-3">
+                <h2>Фильтры</h2>
+            </div>
+            <div class="col-9">
+                <h2>
+                    Резюме
+                </h2>
+                <app-summary-label
+                    *ngFor="let summary of summarys"
+                    [summary]="summary"
+                    >
+                </app-summary-label>
+            </div>
+          </div>
+    </div>
+    
+</div>

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Ruda&display=swap');
 
 /* Указываем box sizing*/
 *,
@@ -30,6 +31,7 @@ dd {
 /* Выставляем основные настройки по-умолчанию для body */
 body {
   min-height: 100vh;
+  min-width: 100%;
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
@@ -59,6 +61,24 @@ textarea,
 select {
   font: inherit;
 }
+
+::-webkit-scrollbar {
+  width: 4px; /* ширина для вертикального скролла */
+  height: 8px; /* высота для горизонтального скролла */
+  background-color: #143861;
+}
+
+/* ползунок скроллбара */
+::-webkit-scrollbar-thumb {
+  background-color: #8ea2eb;
+  border-radius: 9em;
+  box-shadow: inset 1px 1px 10px #e6eaff;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #253861;
+}
+
 /* Удаляем все анимации и переходы для людей, которые предпочитай их не использовать */
 @media (prefers-reduced-motion: reduce) {
   * {
